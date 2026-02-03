@@ -4,20 +4,6 @@
 
 Complete Playwright test suite for xe.gr real estate property search functionality. Validates all QA Engineer Challenge requirements.
 
-## 🎯 Requirements Coverage
-
-✅ **Core Requirements:**
-- Search for rent properties in Παγκράτι
-- Apply price filter (€200-€700) and size filter (75m²-150m²)
-- Validate search results meet criteria
-- Test sorting by descending price
-- Ensure no ad has more than 30 pictures
-
-✅ **Bonus Features:**
-- Phone numbers not visible by default
-- Clickable button reveals phone in pop-up
-- Valid 10-digit phone format
-
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -32,7 +18,7 @@ npm test
 
 ## 📊 Test Suite
 
-**4 Tests Included:**
+** Tests Included:**
 1. Property Search Test - Validates price and size criteria
 2. Sorting Test - Validates descending price sorting
 3. Picture Count Test - Ensures ≤30 pictures per ad
